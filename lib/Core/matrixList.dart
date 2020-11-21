@@ -75,7 +75,7 @@ class _MatrixState extends State<Matrix> {
                       text: 'Here are few important problems',
                       style: TextStyle(
                           fontFamily: 'ProductSans',
-                          color: Colors.black,
+                          color: Colors.black45,
                           fontWeight: FontWeight.w400,
                           fontSize: ScreenUtil().setSp(20)))
                 ]),

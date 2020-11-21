@@ -31,6 +31,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     ScreenUtil.init(context,
         designSize: Size(411.4, 820.6), allowFontScaling: true);
+    print(MediaQuery.of(context).size);
     var color = Theme.of(context).primaryColor;
     return Scaffold(
       backgroundColor: Colors.white,
